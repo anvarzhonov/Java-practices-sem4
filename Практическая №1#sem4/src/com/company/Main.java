@@ -1,6 +1,7 @@
 package com.company;
 import java.util.*;
 import java.util.function.Function;
+import java.util.stream.Stream;
 
 public class Main {
 
@@ -11,17 +12,21 @@ public class Main {
         });
         System.out.println(list); */
 
-        Student student1 = new Student("Андрей", 19);
-        Student student2 = new Student("Евгений", 23);
-        Student student3 = new Student("Артем", 35);
-        Student student4 = new Student("Мики", 18);
-        Student student5 = new Student("Арнольд", 20);
+        List<Student> students = new ArrayList<>();
 
-        List<Student> list = new ArrayList<>();
-        list.add(student1);
+        Student student1 = new Student("Андрей", 19,10);
+        Student student2 = new Student("Евгений", 23,25);
+        Student student3 = new Student("Артем", 35,2);
+        Student student4 = new Student("Мики", 18, 28);
+        Student student5 = new Student("Арнольд", 20, 6);
 
-        Map<String,List<Student>> boo=new HashMap<>();
-        System.out.println(boo);
+
+        Collections.addAll(students, student1, student2, student3, student4, student5);
+
+        Stream<Student> studentStream = students.stream();
+        System.out.println("=========Cортировка по группе студентов==============");
+        studentStream.sorted(Comparator.comparingInt(Student::getGroup)).forEach(System.out::println);
+
 
 
 

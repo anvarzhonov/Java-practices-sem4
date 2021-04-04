@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/Практическая №10(Введение в Spring)" />
+    <file type="web" url="file://$PROJECT_DIR$/Практическая №12(Жизненный цикл бина)" />
+    <file type="web" url="file://$PROJECT_DIR$/Практическая №13(Конфигурование приложения)" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Практическая №10(Введение в Spring)/pom.xml" />
+        <option value="$PROJECT_DIR$/Практическая №12(Жизненный цикл бина)/pom.xml" />
+        <option value="$PROJECT_DIR$/Практическая №13(Конфигурование приложения)/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/Практическая №13(Конфигурование приложения)/src/main/resources/student.properties" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" project-jdk-name="14" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
