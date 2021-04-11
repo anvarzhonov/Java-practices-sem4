@@ -8,7 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Практическая №13(Конфигурование приложения)" />
         <module name="Практическая №12(Жизненный цикл бина)" />
+        <module name="FirstIoCApp" />
         <module name="Практическая №10(Введение в Spring)" />
+        <module name="SpringAnnotations4" />
       </profile>
     </annotationProcessing>
   </component>
