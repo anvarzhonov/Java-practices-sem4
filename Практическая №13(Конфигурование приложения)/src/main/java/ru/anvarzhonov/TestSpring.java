@@ -10,9 +10,8 @@ public class TestSpring {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
                 "applicationContext.xml"
         );
-
-        Student st = context.getBean("student", Student.class);
-        StudentPlayer studentPlayer=new StudentPlayer(st);
-        System.out.println(studentPlayer);
+            Student student = context.getBean("student",Student.class);
+            System.out.println(student);
+        context.close();
     }
 }

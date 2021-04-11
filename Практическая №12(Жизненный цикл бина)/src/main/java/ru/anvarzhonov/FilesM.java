@@ -11,8 +11,8 @@ import java.nio.file.Path;
 @Component
 public class FilesM {
 
-    Path path = Path.of("text.txt");
-    Path path2 = Path.of("text1.txt");
+    Path path = Path.of("o.txt");
+    Path path2 = Path.of("text2.txt");
 
     @PostConstruct
     public void entrance() throws IOException {
@@ -20,7 +20,7 @@ public class FilesM {
             Files.createFile(path2);
             Files.copy(path,path2);
         }
-        else{
+        else if(Files.exists(path) && !Files.exists(path2)){
             Files.createFile(path2);
             Files.writeString(path2,"null");
             System.out.println(Files.readAllLines(path2));

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java-practices-sem4.iml" filepath="$PROJECT_DIR$/.idea/Java-practices-sem4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Практическая №1#sem4/Практическая №1#sem4.iml" filepath="$PROJECT_DIR$/Практическая №1#sem4/Практическая №1#sem4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Практическая №10(Введение в Spring)/Практическая №12(Жизненный цикл бина)/Практическая №12(Жизненный цикл бина).iml" filepath="$PROJECT_DIR$/Практическая №10(Введение в Spring)/Практическая №12(Жизненный цикл бина)/Практическая №12(Жизненный цикл бина).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Практическая №2#sem4/Практическая №2#sem4.iml" filepath="$PROJECT_DIR$/Практическая №2#sem4/Практическая №2#sem4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Практическая №3#sem4/Практическая №3#sem4.iml" filepath="$PROJECT_DIR$/Практическая №3#sem4/Практическая №3#sem4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Практическая №4#sem4/Практическая №4#sem4.iml" filepath="$PROJECT_DIR$/Практическая №4#sem4/Практическая №4#sem4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Практическая №5#sem4(Патерны - Singleton)/Практическая №5#sem4(Патерны - Singleton).iml" filepath="$PROJECT_DIR$/Практическая №5#sem4(Патерны - Singleton)/Практическая №5#sem4(Патерны - Singleton).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Практическая №6#sem4(Порождающие паттерны)/Практическая №6#sem4(Порождающие паттерны).iml" filepath="$PROJECT_DIR$/Практическая №6#sem4(Порождающие паттерны)/Практическая №6#sem4(Порождающие паттерны).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Практическая №9#sem4(Знакомство с Gradle).iml" filepath="$PROJECT_DIR$/.idea/modules/Практическая №9#sem4(Знакомство с Gradle).iml" />
+    </modules>
+  </component>
+</project>
