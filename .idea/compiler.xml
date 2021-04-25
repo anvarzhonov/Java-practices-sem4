@@ -6,10 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Практическая №13(Конфигурование приложения)" />
-        <module name="Практическая №12(Жизненный цикл бина)" />
         <module name="FirstIoCApp" />
-        <module name="Практическая №10(Введение в Spring)" />
+        <module name="Практическая №12(Жизненный цикл бина)" />
         <module name="SpringAnnotations4" />
       </profile>
     </annotationProcessing>
